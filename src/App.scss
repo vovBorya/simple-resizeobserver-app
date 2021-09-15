@@ -1,0 +1,16 @@
+.app {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+    &__hero-img {
+        width: 600px;
+        height: auto;
+        margin: 0 auto;
+        display: none;
+
+        &.show {
+            display: block;
+        }
+    }
+}
